@@ -1,0 +1,109 @@
+/* FoodCatalog.css */
+
+.food-catalog {
+  /* padding: 20px;
+  margin-top: 70px; Adjust margin to avoid overlapping with the navbar */
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 0.9445903361344538) 100%
+  );
+}
+
+.search-filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+.search-input input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 200px;
+}
+
+.search-icon {
+  cursor: pointer;
+  padding: 5px;
+}
+
+select {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.food-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.food-item {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.food-item h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.food-item p {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.food-item button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.food-item button:hover {
+  background-color: #4cae4c;
+}
+
+.view-cart-button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.view-cart-button a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.view-cart-button a:hover {
+  background-color: #4cae4c;
+}

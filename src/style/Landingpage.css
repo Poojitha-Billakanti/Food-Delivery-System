@@ -1,0 +1,63 @@
+.landing-page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.carousel .slide img {
+  width: 100%;
+  height: 100vh; /* Make the image full screen height */
+  object-fit: cover;
+}
+
+.button-container {
+  position: fixed; /* Fix the position of the buttons */
+  top: 20px; /* Adjust the top position */
+  right: 20px; /* Adjust the right position */
+  display: flex;
+  gap: 10px;
+  z-index: 10; /* Ensure buttons appear on top of images */
+}
+
+.auth-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+.auth-button:hover {
+  background-color: #0056b3;
+  opacity: 1;
+}
+
+.head-name {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* Landingpage.css */
+
+.landing-page {
+  position: relative; /* Ensure the landing page acts as a positioning context */
+  /* Add any other styles specific to your landing page */
+}
+
+.food-delivery-system {
+  position: fixed;
+  top: 45%; /* Adjust top position as needed */
+  right: 50%; /* Adjust right position as needed */
+  font-size: 65px;
+  padding: 10px;
+  color: #f9f2f2;
+  box-shadow: 0 0 10px rgba(241, 238, 238, 0.1);
+  z-index: 1000; /* Ensure it's above other content */
+}
